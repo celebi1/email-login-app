@@ -12,9 +12,7 @@ const url  = baseUrl+"/login"
 
   const res = await axios.post(url, data);
   return res;
-debugger;
-  console.log("hocaammmm")
-  console.log(res)
+  
 
     // let data = JSON.stringify({
     //     "email": "clbceri@gmail.com",
